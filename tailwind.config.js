@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        bodyBgFrom: "var(--bodyBgFrom)",
+        bodyBgTo: "var(--bodyBgTo)",
+      },
+    },
   },
   plugins: [],
 };
