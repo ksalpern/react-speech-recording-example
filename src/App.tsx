@@ -57,7 +57,7 @@ export const App: React.FC = () => {
   }
 
   return (
-    <div className='w-full h-full grid place-items-center'>
+    <div className='w-screen h-screen flex items-center justify-center'>
       <div className='xl:w-[25vw] lg:w-[40vw] md:w-[60vw] w-[90%] flex flex-col shadow-lg bg-neutral-900 p-5 rounded-lg relative'>
         <div className='w-full h-[200px] relative pb-2 pt-8 font-medium text-white leading-7'>
           <Save
@@ -93,7 +93,7 @@ export const App: React.FC = () => {
             {transcript ? (
               transcript
             ) : (
-              <div className='absolute opacity-60 left-1/2 top-[60%] -translate-x-1/2 -translate-y-1/2 font-bold text-[30px] text-center text-gray-500'>
+              <div className='absolute opacity-60 left-1/2 top-[60%] -translate-x-1/2 -translate-y-1/2 font-bold text-[30px] text-center text-gray-400'>
                 Click On Start Recording
               </div>
             )}
