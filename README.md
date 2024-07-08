@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# react-speech-recording-example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here's an application that can convert speech to text, save transcripts, and support multiple languages.  Click [here](https://react-speech-recording-example.vercel.app/) to see the app or check the preview right here 👇
 
-Currently, two official plugins are available:
+<img src="./public/assets/demo.png" alt="demo preview">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# What will I see in this build?
 
-## Expanding the ESLint configuration
+👉 React & Typescript
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+👉 TailwindCSS
 
-- Configure the top-level `parserOptions` property like this:
+👉 react-speech-recognition
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# How to start the project on your local machine?
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Download or clone this repository
+
+2. Install its dependencies: npm install
+
+3. Build the project: npm run build
+
+4. Start the project: npm run dev
+
+5. The website is now working, hope you enjoy it 😃
