@@ -2,7 +2,7 @@
 
 Here's an application that can convert speech to text, save transcripts, and support multiple languages.  Click [here](https://react-speech-recording-example.vercel.app/) to see the app or check the preview right here 👇
 
-<img src="./public/assets/demo.png" alt="demo preview">
+<img src="./public/demo.png" alt="demo preview">
 
 # What will I see in this build?
 
